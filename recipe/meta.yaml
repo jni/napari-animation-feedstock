@@ -1,5 +1,5 @@
 {% set name = "napari-animation" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari_animation-{{ version }}.tar.gz
-  sha256: bcd10e55e48dd7c06ef8de8d23768e252976b4fac65ed1cf3a50b6cf223f57d8
+  sha256: e02cbb9fa018f2c5cae42025c8e14c7027179bcc0fed50ff8eeaace838a5a95b
 
 build:
   number: 0
@@ -29,6 +29,8 @@ requirements:
     - python >=3.7
     - qtpy
     - scipy
+    - superqt
+    - tqdm
 
 test:
   imports:
