@@ -1,11 +1,11 @@
-About napari-animation
-======================
+About napari-animation-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-animation-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/napari/napari-animation
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-animation-feedstock/blob/main/LICENSE.txt)
 
 Summary: A plugin for making animations in napari
 
