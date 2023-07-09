@@ -18,19 +18,19 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools-scm
   run:
     - imageio
     - imageio-ffmpeg
-    - napari >=0.4.5
-    - napari-plugin-engine >=0.1.9
+    - napari
+    - npe2
     - numpy
-    - python >=3.7
+    - python >=3.8
     - qtpy
     - scipy
     - superqt
-    - tqdm
+    - tqdm >=4.56.0
 
 test:
   imports:
